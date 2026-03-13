@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Golden Lather & Light Co. | Handcrafted Soaps & Candles | Nashville, TN</title>
+  <meta name="description" content="Handmade natural soaps and soy candles crafted with care in Nashville, Tennessee. Small batch. Big heart." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Jost:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="navbar-inner">
+      <a href="#" class="navbar-brand">Golden Lather &amp; Light Co.</a>
+      <ul class="nav-links">
+        <li><a href="#products">Shop</a></li>
+        <li><a href="#experience">Experiences</a></li>
+        <li><a href="#gifts">Gift Sets</a></li>
+        <li><a href="#story">Our Story</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="#products" class="nav-cta">Shop Now</a>
+      <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle menu">
+        <svg class="icon-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        <svg class="icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:none"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobile-menu">
+    <ul>
+      <li><a href="#products">Shop</a></li>
+      <li><a href="#experience">Experiences</a></li>
+      <li><a href="#gifts">Gift Sets</a></li>
+      <li><a href="#story">Our Story</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li class="mobile-menu-cta"><a href="#products">Shop Now</a></li>
+    </ul>
+  </div>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <img src="images/hero-bg.jpg" alt="Handcrafted soaps and candles" />
+      <div class="hero-overlay"></div>
+      <div class="hero-gradient"></div>
+    </div>
+    <div class="hero-content">
+      <div class="fade-in" data-delay="0.1">
+        <div class="hero-tagline">
+          <span class="hero-line"></span>
+          <span class="hero-tagline-text">Handcrafted in Nashville, Tennessee</span>
+          <span class="hero-line"></span>
+        </div>
+      </div>
+      <div class="fade-in" data-delay="0.2">
+        <h1 class="hero-title">
+          Small Batch.<br />
+          <em>Big Heart.</em><br />
+          Nashville Made.
+        </h1>
+      </div>
+      <div class="fade-in" data-delay="0.3">
+        <p class="hero-subtitle">
+          Natural soaps and soy candles handcrafted by Aamira Fetuga — your local Nashville maker. Every product is made in small batches with clean, trusted ingredients.
+        </p>
+      </div>
+      <div class="fade-in hero-buttons" data-delay="0.4">
+        <a href="#products" class="btn btn-primary">Shop the Collection</a>
+        <a href="#gifts" class="btn btn-outline-white">Explore Gift Sets</a>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ========== MARQUEE ========== -->
+  <div class="marquee-bar">
+    <div class="marquee-track">
+      <span>Handmade Natural Soaps<i></i></span>
+      <span>Small Batch Soy Candles<i></i></span>
+      <span>Custom Gift Boxes<i></i></span>
+      <span>Wedding &amp; Event Favors<i></i></span>
+      <span>Candle Making Parties<i></i></span>
+      <span>Nashville Local<i></i></span>
+      <span>Clean Ingredients<i></i></span>
+      <span>Handmade Natural Soaps<i></i></span>
+      <span>Small Batch Soy Candles<i></i></span>
+      <span>Custom Gift Boxes<i></i></span>
+      <span>Wedding &amp; Event Favors<i></i></span>
+      <span>Candle Making Parties<i></i></span>
+      <span>Nashville Local<i></i></span>
+      <span>Clean Ingredients<i></i></span>
+      <span>Handmade Natural Soaps<i></i></span>
+      <span>Small Batch Soy Candles<i></i></span>
+      <span>Custom Gift Boxes<i></i></span>
+      <span>Wedding &amp; Event Favors<i></i></span>
+      <span>Candle Making Parties<i></i></span>
+      <span>Nashville Local<i></i></span>
+      <span>Clean Ingredients<i></i></span>
+    </div>
+  </div>
+
+  <!-- ========== VALUES ========== -->
+  <section class="values">
+    <div class="container values-grid">
+      <div class="fade-in value-card" data-delay="0.1">
+        <div class="value-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="28" height="28"><path d="M11 20A7 7 0 0 1 9.8 6.9C15.5 4.9 17 3.5 17 3.5s1.5 2 2.1 5.5A7 7 0 0 1 11 20z"/><path d="M11 13V20"/><path d="M7 17l4-4 4 4"/></svg>
+        </div>
+        <h3>Clean Ingredients</h3>
+        <p>Every product is crafted with natural ingredients you can actually read. No harsh chemicals — just pure, intentional formulations your skin will love.</p>
+      </div>
+      <div class="fade-in value-card" data-delay="0.2">
+        <div class="value-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="28" height="28"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/><path d="M5 3v4"/><path d="M19 17v4"/><path d="M3 5h4"/><path d="M17 19h4"/></svg>
+        </div>
+        <h3>Truly Small Batch</h3>
+        <p>Unlike big brands, every bar and candle is made by hand right here in Nashville. You're getting something crafted with real care — not pulled off a factory line.</p>
+      </div>
+      <div class="fade-in value-card" data-delay="0.3">
+        <div class="value-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="28" height="28"><polyline points="20 12 20 22 4 22 4 12"/><rect x="2" y="7" width="20" height="5"/><line x1="12" y1="22" x2="12" y2="7"/><path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"/><path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"/></svg>
+        </div>
+        <h3>The Perfect Gift</h3>
+        <p>From birthdays to bridal showers to wedding favors, Golden Lather &amp; Light solves the thoughtful gift problem — beautifully wrapped and locally made.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PRODUCTS ========== -->
+  <section class="products" id="products">
+    <div class="container">
+      <div class="fade-in section-header">
+        <div class="section-label">Our Collection</div>
+        <h2>Handcrafted with <em>love</em><br/>in every batch</h2>
+      </div>
+      <div class="products-grid" id="products-grid">
+        <!-- Populated by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== EXPERIENCE ========== -->
+  <section class="experience" id="experience">
+    <div class="container experience-layout">
+      <div class="fade-in experience-text" data-direction="right">
+        <div class="section-label-left">
+          <span class="label-line"></span>
+          <span>More Than Products</span>
+        </div>
+        <h2>Book a <em>Making</em><br/>Party Experience</h2>
+        <p>Gather your friends, family, or colleagues for a hands-on soap and candle making experience. Hosted at your location or ours — everyone takes home what they make.</p>
+        <a href="#contact" class="btn btn-outline-primary">Book Your Party</a>
+      </div>
+      <div class="experience-cards" id="experience-cards">
+        <!-- Populated by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== GIFTS ========== -->
+  <section class="gifts" id="gifts">
+    <div class="container">
+      <div class="fade-in section-header">
+        <div class="section-label">Curated Gift Sets</div>
+        <h2>The gift they'll <em>actually</em><br/>remember</h2>
+      </div>
+      <div class="gifts-grid" id="gifts-grid">
+        <!-- Populated by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== STORY ========== -->
+  <section class="story" id="story">
+    <div class="container story-layout">
+      <div class="fade-in story-image-block" data-direction="right">
+        <div class="story-main-image">
+          <img src="images/story-candles.jpg" alt="Pouring candles" />
+        </div>
+        <div class="story-badge">
+          <div class="badge-number">100%</div>
+          <div class="badge-label">Nashville<br/>Made</div>
+        </div>
+      </div>
+      <div class="fade-in story-text" data-direction="left">
+        <div class="section-label-left">
+          <span class="label-line"></span>
+          <span>Our Story</span>
+        </div>
+        <h2>Born from passion,<br/><em>built with purpose</em></h2>
+        <div class="story-paragraphs">
+          <p>Hi, I'm Aamira Fetuga — a Nashville local, maker, and the heart behind Golden Lather &amp; Light Co. I started making soaps and candles because everyday products should feel special, smell incredible, and be made with ingredients you can trust.</p>
+          <p>My background in customer service, cooking, and organization means every single order gets the same care and attention. When friends and family started requesting my products by name, I knew this was more than a hobby.</p>
+        </div>
+        <div class="story-divider"></div>
+        <div class="story-stats">
+          <div class="stat">
+            <div class="stat-value">100%</div>
+            <div class="stat-label">Natural<br/>Ingredients</div>
+          </div>
+          <div class="stat">
+            <div class="stat-value">Small</div>
+            <div class="stat-label">Batch<br/>Production</div>
+          </div>
+          <div class="stat">
+            <div class="stat-value">Local</div>
+            <div class="stat-label">Nashville<br/>Proud</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== TESTIMONIALS ========== -->
+  <section class="testimonials">
+    <div class="container">
+      <div class="fade-in section-header">
+        <div class="section-label">What People Are Saying</div>
+        <h2>Loved by Nashville<br/><em>gift-givers</em></h2>
+      </div>
+      <div class="testimonials-grid">
+        <div class="fade-in testimonial-card" data-delay="0">
+          <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="testimonial-quote">"I ordered a gift set for my friend's birthday and she absolutely loved it. The candle smelled amazing and the soap felt so luxurious. Will definitely be ordering again!"</p>
+          <div class="testimonial-author">Jessica M.</div>
+          <div class="testimonial-location">East Nashville</div>
+        </div>
+        <div class="fade-in testimonial-card" data-delay="0.1">
+          <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="testimonial-quote">"We used Golden Lather &amp; Light for our wedding favors and every single guest raved about them. Aamira was so easy to work with and the products were just beautiful."</p>
+          <div class="testimonial-author">Brianna &amp; Marcus T.</div>
+          <div class="testimonial-location">12 South, Nashville</div>
+        </div>
+        <div class="fade-in testimonial-card" data-delay="0.2">
+          <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="testimonial-quote">"We booked a candle making party for our team and it was the best work event we've ever done. So fun, so creative — and we all went home with candles we made ourselves!"</p>
+          <div class="testimonial-author">Tamara W.</div>
+          <div class="testimonial-location">Germantown, Nashville</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== NEWSLETTER / CONTACT ========== -->
+  <section class="newsletter" id="contact">
+    <div class="newsletter-circle"></div>
+    <div class="container newsletter-content">
+      <div class="fade-in">
+        <div class="section-label">Stay in the Loop</div>
+        <h2>Get <em>first access</em> to new<br/>scents &amp; seasonal collections</h2>
+        <p class="newsletter-subtitle">Join the Golden Lather &amp; Light community for new arrivals, exclusive offers, farmers market dates, and Nashville maker news.</p>
+        <form class="newsletter-form" id="newsletter-form">
+          <input type="email" placeholder="Your email address" required id="email-input" />
+          <button type="submit">Subscribe</button>
+        </form>
+        <p class="form-error" id="form-error"></p>
+        <p class="form-success" id="form-success"></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3>Golden Lather &amp; Light Co.</h3>
+          <p>Handmade natural soaps and soy candles crafted with care in Nashville, Tennessee. Small batch. Big heart.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg></a>
+            <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+            <a href="#" aria-label="Twitter"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/></svg></a>
+            <a href="#" aria-label="Pinterest"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><line x1="12" y1="17" x2="12" y2="22"/><path d="M5 17H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-1"/><polygon points="12 15 9 18 15 18 12 15"/></svg></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Shop</h4>
+          <ul>
+            <li><a href="#products">Soaps</a></li>
+            <li><a href="#products">Candles</a></li>
+            <li><a href="#gifts">Gift Sets</a></li>
+            <li><a href="#experience">Event Favors</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Experiences</h4>
+          <ul>
+            <li><a href="#experience">Soap Making Party</a></li>
+            <li><a href="#experience">Candle Making Party</a></li>
+            <li><a href="#experience">Corporate Events</a></li>
+            <li><a href="#experience">Wedding Favors</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Connect</h4>
+          <ul>
+            <li><a href="#story">Our Story</a></li>
+            <li><a href="#contact">Newsletter</a></li>
+            <li><a href="#">Nashville Markets</a></li>
+            <li><a href="#">Wholesale Inquiries</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copyright">&copy; <span id="year"></span> Golden Lather &amp; Light Co. &middot; Nashville, TN &middot; All rights reserved.</p>
+        <p class="footer-tagline">Handcrafted in Nashville, Made with Care</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
