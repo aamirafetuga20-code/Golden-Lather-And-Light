@@ -7,17 +7,17 @@ const products = [
   {
     id: 1, type: "product", category: "Natural Soap", name: "Signature Bar Soap",
     description: "Melt-and-pour glycerin base with custom scents and natural colorants. Gentle on all skin types.",
-    price: "$8.00", emoji: "\u{1F9FC}", featured: false
+    price: "$8.00", image: "images/soap-bar.jpg", featured: false
   },
   {
     id: 2, type: "product", category: "Soy Candle", name: "Soy Wax Candle",
     description: "Clean-burning soy wax in custom fragrances. Sets the perfect mood for any space in your home.",
-    price: "$12.00", emoji: "\u{1F56F}\uFE0F", featured: false
+    price: "$12.00", image: "images/soy-candle.jpg", featured: false
   },
   {
     id: 3, type: "product", category: "Premium Bar", name: "Specialty Soap Bar",
     description: "Elevated formulations with premium botanicals and unique scent blends. A treat for the senses.",
-    price: "$10.00", emoji: "\u2728", featured: false
+    price: "$10.00", image: "images/specialty-soap.jpg", featured: false
   }
 ];
 
@@ -39,7 +39,7 @@ function renderProducts() {
   grid.innerHTML = products.map(function (p, i) {
     return '<div class="fade-in product-card" data-delay="' + (i * 0.1) + '">' +
       '<div class="product-image">' +
-        '<span>' + p.emoji + '</span>' +
+        '<img src="' + p.image + '" alt="' + p.name + '" />' +
         '<div class="product-overlay">' +
           '<button onclick="showToast(\'Added to cart\', \'' + p.name + ' has been added.\')">Quick Add</button>' +
         '</div>' +
